@@ -1,202 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Event Details | IUTCS</title>
+        <title>Event Details | IUTCS</title>
 
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style type="text/tailwindcss">
-      @theme {
-        --color-navy: #0a1929;
-        --color-red: #e63946;
-        --color-cyan: #00a8e8;
-      }
-    </style>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style type="text/tailwindcss">
+            @theme {
+                --color-navy: #0a1929;
+                --color-red: #e63946;
+                --color-cyan: #00a8e8;
+            }
+        </style>
 
-    <link rel="stylesheet" href="../global.css" />
-    <link rel="stylesheet" href="./eventDetails.css" />
-  </head>
-  <body>
-    <!-- Header (same as other pages) -->
-      <header class="bg-navy text-white sticky top-0 z-50 shadow-md px-4 py-6">
-      <div class="container mx-auto">
-        <div class="flex justify-between items-center">
-          <a
-            href="/"
-            class="flex items-center space-x-2"
-          >
-            <span class="font-bold text-xl">IUTCS</span>
-          </a>
-          <nav class="hidden md:flex flex items-center gap-x-6">
-            <a
-              href="../home.html"
-              class="nav-link py-2 hover:text-cyan transition-colors"
-            >
-              Home
-            </a>
-            <a
-              href=""
-              class="nav-link py-2 hover:text-cyan transition-colors"
-            >
-              Fests
-            </a>
-            <a
-              href="../about/about.html"
-              class="nav-link py-2 hover:text-cyan transition-colors"
-            >
-              About
-            </a>
-          </nav>
-        </div>
-      </div>
-    </header>
-
-    <main class="py-12">
-      <div class="container mx-auto px-4">
-       
-        <!-- Event Banner -->
-       
-            <div class="h-100 w-3/4 bg-red flex items-center justify-center text-white text-2xl font-bold rounded-[25px] mb-8 mx-auto">
-                Event Banner
-            </div>
-
-
-            <div class="flex items-center justify-center text-center font-inter font-bold text-4xl  uppercase mb-10">
-                INTER UNIVERSITY PROGRAMMING CONTEST
-            </div>
-            <div class="max-w-4xl mx-auto text-center font-inter">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia optio odit voluptatum sint eius tempore ratione repudiandae sapiente eveniet, at aspernatur pariatur illo ullam quam neque quae ab maiores autem.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, mollitia ex. Reprehenderit ducimus eius eaque blanditiis corporis odit molestias consequatur eos tenetur. Necessitatibus hic debitis eos blanditiis deleniti ipsa commodi!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quae assumenda quidem cum nisi voluptatum incidunt porro dolores ipsum, dolor ipsam earum. At harum officia illo numquam, sunt corporis vitae!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquid neque, iure magnam adipisci quas deleniti delectus atque quod autem? Repudiandae neque quos deleniti consectetur itaque, animi sed earum molestiae.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque veritatis similique excepturi necessitatibus culpa eveniet unde iure eaque adipisci illum, perspiciatis recusandae ipsum fugit quisquam earum, esse suscipit quod vel!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ducimus perspiciatis repudiandae aperiam iusto, voluptatem ipsam rerum accusamus amet ex. Sapiente delectus adipisci sint alias, vero architecto ipsum modi assumenda.
-                </p>
-            </div>
-
-
-        <!-- Date Venue Time portion -->
-        <div class="flex justify-center my-12">
-            <div class="bg-[#0A1929] text-white px-12 py-3 rounded-xl flex gap-x-12 items-center">
-                <!-- Date Section -->
-                <div class="flex flex-col items-center border-r border-white pr-12">
-                    <span class="font-bold mb-2">Date</span>
-                    <span>August 2025</span>
-                </div>
-                
-                <!-- Venue Section -->
-                <div class="flex flex-col items-center border-r border-white px-12">
-                    <span class="font-bold mb-2">Venue</span>
-                    <span class="text-center">Islamic University of Technology</span>
-                    <span>Boardbazar, Gazipur</span>
-                </div>
-                
-                <!-- Time Section -->
-                <div class="flex flex-col items-center pl-12">
-                    <span class="font-bold mb-2">Time</span>
-                    <span>04 - 07 pm</span>
+        <link rel="stylesheet" href="../global.css" />
+        <link rel="stylesheet" href="./eventDetails.css" />
+    </head>
+    <body>
+        <!-- Header (same as other pages) -->
+        <header class="bg-navy text-white sticky top-0 z-50 shadow-md px-4 py-6">
+            <div class="container mx-auto">
+                <div class="flex justify-between items-center">
+                    <a href="/" class="flex items-center space-x-2">
+                        <span class="font-bold text-xl">IUTCS</span>
+                    </a>
+                    <nav class="hidden md:flex items-center gap-x-6">
+                        <a href="../home.html" class="nav-link py-2 hover:text-cyan transition-colors">Home</a>
+                        <a href="" class="nav-link py-2 hover:text-cyan transition-colors">Fests</a>
+                        <a href="../about/about.html" class="nav-link py-2 hover:text-cyan transition-colors">About</a>
+                    </nav>
                 </div>
             </div>
+        </header>
+
+        <main >
+            <div class="py-12">
+            <div class="container mx-auto px-4">
+                <!-- Event Banner -->
+                <div class="text-center px-auto">
+                <div class="h-100 w-3/4 bg-red flex items-center justify-center text-white text-2xl font-bold rounded-xl mb-8 mx-auto">
+                    Event Banner
+                </div>
+                </div>
+
+                <div class="flex items-center justify-center text-center font-bold text-4xl uppercase mb-10">
+                    INTER UNIVERSITY PROGRAMMING CONTEST
+                </div>
+                <div class="max-w-4xl mx-auto text-center">
+                    <p class="text-gray-700">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia optio odit voluptatum sint eius tempore ratione repudiandae sapiente eveniet, at aspernatur pariatur illo ullam quam neque quae ab maiores autem.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, mollitia ex. Reprehenderit ducimus eius eaque blanditiis corporis odit molestias consequatur eos tenetur. Necessitatibus hic debitis eos blanditiis deleniti ipsa commodi!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quae assumenda quidem cum nisi voluptatum incidunt porro dolores ipsum, dolor ipsam earum. At harum officia illo numquam, sunt corporis vitae!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquid neque, iure magnam adipisci quas deleniti delectus atque quod autem? Repudiandae neque quos deleniti consectetur itaque, animi sed earum molestiae.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque veritatis similique excepturi necessitatibus culpa eveniet unde iure eaque adipisci illum, perspiciatis recusandae ipsum fugit quisquam earum, esse suscipit quod vel!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ducimus perspiciatis repudiandae aperiam iusto, voluptatem ipsam rerum accusamus amet ex. Sapiente delectus adipisci sint alias, vero architecto ipsum modi assumenda.
+                    </p>
+                </div>
+
+                <!-- Date Venue Time portion -->
+                <div class="flex justify-center my-12">
+                    <div class="bg-navy text-white p-4 md:px-12 md:py-3 rounded-xl flex flex-col md:flex-row gap-6 md:gap-x-12 items-center">
+                        <!-- Date Section -->
+                        <div class="flex flex-col items-center md:border-r md:pr-12 border-white">
+                            <span class="font-bold mb-2">Date</span>
+                            <span >24</span>
+                            <span>August 2025</span>
+                        </div>
+
+                        <!-- Venue Section -->
+                        <div class="flex flex-col items-center md:border-r md:pl-12 border-white px-12">
+                            <span class="font-bold mb-2">Venue</span>
+                            <span class="text-center">Islamic University of Technology</span>
+                            <span>Boardbazar, Gazipur</span>
+                        </div>
+
+                        <!-- Time Section -->
+                        <div class="flex flex-col items-center">
+                            <span class="font-bold mb-2">Time</span>
+                            <span>04 - 07 pm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rules and regulations -->
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl font-bold text-left mb-6">Rules and Regulations</h2>
+                    <p class="text-left text-gray-700">
+                        1. Each team must consist of 3 members.<br>
+                        2. All participants must be students of the same university.<br>
+                        3. Each team must have a unique name.<br>
+                        4. Participants are not allowed to use any external resources during the contest.<br>
+                        5. The contest will consist of multiple rounds, including preliminary and final rounds.<br>
+                        6. The top teams from the preliminary round will advance to the final round.<br>
+                        7. All decisions made by the judges are final and binding.<br>
+                        8. Participants must adhere to the code of conduct and maintain sportsmanship throughout the event.
+                    </p>
+                    <p class="text-left text-gray-700 mt-6">
+                        Registration fee: <br>
+                        Registration deadline: <br>
+                        For any issues, please contact: <br>
+                        Name <br>
+                        Designation <br>
+                        Phone number <br>
+                        email <br>
+                    </p>
+
+                    <div class="text-left mt-8">
+                        <a href="#" class="bg-red text-white px-6 py-3 rounded-xl font-bold hover:bg-red-700 transition-colors">
+                            REGISTER NOW
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
+        </main>
 
-        <!-- Rules and regulations -->
-
-         <div class="max-w-4xl mx-auto text-center font-inter">
-            <h2 class="text-3xl font-bold text-left mb-6">Rules and Regulations</h2>
-            <p class="text-left text-gray-700">
-                1. Each team must consist of 3 members.<br>
-                2. All participants must be students of the same university.<br>
-                3. Each team must have a unique name.<br>
-                4. Participants are not allowed to use any external resources during the contest.<br>
-                5. The contest will consist of multiple rounds, including preliminary and final rounds.<br>
-                6. The top teams from the preliminary round will advance to the final round.<br>
-                7. All decisions made by the judges are final and binding.<br>
-                8. Participants must adhere to the code of conduct and maintain sportsmanship throughout the event.
-            </p>
-            <p class="text-left text-gray-700 mt-6">
-                Registration fee: <br>
-                Registration deadline: <br>
-                For any issues, please contact: <br>
-                Name 
-                <br>
-                Designation <br>
-                Phone number <br>
-                 email <br>
-            </p>
-
-
-            <div class="text-left justify-center mt-8">
-                <a href="#" class="bg-red text-white px-6 py-5 rounded-xl font-bold hover:bg-red-700 transition-colors">
-                    REGISTER NOW
-                </a>
+        <!-- Footer (same as other pages) -->
+        <footer class="bg-navy text-white py-8">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">IUTCS</h3>
+                        <p class="text-gray-300">
+                            The Computer Society of Islamic University of Technology,
+                            dedicated to fostering technological innovation and excellence.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                        <ul class="space-y-2">
+                            <li>
+                                <a href="../home.html" class="text-gray-300 hover:text-cyan transition-colors">Home</a>
+                            </li>
+                            <li>
+                                <a href="../fests/fests.html" class="text-gray-300 hover:text-cyan transition-colors">Fests</a>
+                            </li>
+                            <li>
+                                <a href="../about/about.html" class="text-gray-300 hover:text-cyan transition-colors">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Contact</h3>
+                        <address class="not-italic text-gray-300">
+                            <p>Islamic University of Technology</p>
+                            <p>Board Bazar, Gazipur-1704</p>
+                            <p>Bangladesh</p>
+                            <p class="mt-2">Email: iutcs@iut-dhaka.edu</p>
+                        </address>
+                    </div>
+                </div>
+                <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-300">
+                    <p>&copy;IUTCS. All rights reserved.</p>
+                </div>
             </div>
-         </div>
-
-
-
-      
-    </main>
-
-    <!-- Footer (same as other pages) -->
-    <footer class="bg-navy text-white py-8">
-        <div class="container mx-auto px-4">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
-              <h3 class="text-xl font-bold mb-4">IUTCS</h3>
-              <p class="text-gray-300">
-                The Computer Society of Islamic University of Technology,
-                dedicated to fostering technological innovation and excellence.
-              </p>
-            </div>
-            <div>
-              <h3 class="text-xl font-bold mb-4">Quick Links</h3>
-              <ul class="space-y-2">
-                <li>
-                  <a
-                    href="../home.html"
-                    class="text-gray-300 hover:text-cyan transition-colors"
-                  >
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="../fests/fests.html"
-                    class="text-gray-300 hover:text-cyan transition-colors"
-                  >
-                    Fests
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="../about/about.html"
-                    class="text-gray-300 hover:text-cyan transition-colors"
-                  >
-                    About
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 class="text-xl font-bold mb-4">Contact</h3>
-              <address class="not-italic text-gray-300">
-                <p>Islamic University of Technology</p>
-                <p>Board Bazar, Gazipur-1704</p>
-                <p>Bangladesh</p>
-                <p class="mt-2">Email: iutcs@iut-dhaka.edu</p>
-              </address>
-            </div>
-          </div>
-          <div
-            class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-300"
-          >
-            <p>&copy;IUTCS. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
-  </body>
+        </footer>
+    </body>
 </html>
