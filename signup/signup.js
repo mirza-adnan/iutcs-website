@@ -9,13 +9,6 @@ const errorBlock = document.getElementById("error-message");
 errorBlock.textContent = "";
 errorBlock.style.display = "none";
 
-console.log(signupForm);
-console.log(nameField);
-console.log(emailField);
-console.log(passwordField);
-console.log(confirmPasswordField);
-console.log(errorBlock);
-
 signupForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
