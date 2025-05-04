@@ -47,3 +47,7 @@ body {
 .active-nav-link::after {
   width: 100%;
 }
+
+button {
+  cursor: pointer;
+}
